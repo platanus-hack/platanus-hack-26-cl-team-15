@@ -1,0 +1,144 @@
+[
+ {
+  "id": "P01",
+  "name": "Predio 01",
+  "px": [
+   102,
+   182,
+   124,
+   258
+  ],
+  "kind": "predio",
+  "right_m3": 60000
+ },
+ {
+  "id": "P02",
+  "name": "Predio 02",
+  "px": [
+   141,
+   192,
+   164,
+   258
+  ],
+  "kind": "predio",
+  "right_m3": 140000
+ },
+ {
+  "id": "P03",
+  "name": "Predio 03",
+  "px": [
+   176,
+   192,
+   194,
+   234
+  ],
+  "kind": "predio",
+  "right_m3": 110000
+ },
+ {
+  "id": "P04",
+  "name": "Predio 04",
+  "px": [
+   121,
+   126,
+   139,
+   164
+  ],
+  "kind": "predio",
+  "right_m3": 30000
+ },
+ {
+  "id": "P05",
+  "name": "Predio 05",
+  "px": [
+   420,
+   320,
+   440,
+   344
+  ],
+  "kind": "predio",
+  "right_m3": 45000
+ },
+ {
+  "id": "P06",
+  "name": "Predio 06",
+  "px": [
+   471,
+   352,
+   499,
+   388
+  ],
+  "kind": "predio",
+  "right_m3": 120000
+ },
+ {
+  "id": "P07",
+  "name": "Predio 07",
+  "px": [
+   621,
+   301,
+   644,
+   324
+  ],
+  "kind": "predio",
+  "right_m3": 15000
+ },
+ {
+  "id": "P08",
+  "name": "Predio 08",
+  "px": [
+   690,
+   442,
+   709,
+   478
+  ],
+  "kind": "predio",
+  "right_m3": 80000
+ },
+ {
+  "id": "P09",
+  "name": "Predio 09",
+  "px": [
+   712,
+   502,
+   749,
+   538
+  ],
+  "kind": "predio",
+  "right_m3": 100000
+ },
+ {
+  "id": "P10",
+  "name": "Predio 10",
+  "px": [
+   611,
+   551,
+   629,
+   579
+  ],
+  "kind": "predio",
+  "right_m3": 20000
+ },
+ {
+  "id": "R1",
+  "name": "Secano de referencia, oeste",
+  "px": [
+   30,
+   226,
+   70,
+   258
+  ],
+  "kind": "ref"
+ },
+ {
+  "id": "R2",
+  "name": "Secano de referencia, este",
+  "px": [
+   561,
+   371,
+   599,
+   399
+  ],
+  "kind": "ref"
+ }
+]

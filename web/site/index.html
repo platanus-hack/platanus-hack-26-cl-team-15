@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Caudal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/stage.css">
+<link rel="stylesheet" href="css/pages.css">
+
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="#inicio" aria-label="Caudal, inicio">
+    <svg width="20" height="20" viewBox="0 0 22 22" aria-hidden="true"><path d="M11 2c3.6 4.6 6 8.1 6 11a6 6 0 0 1-12 0c0-2.9 2.4-6.4 6-11z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 14.5a3 3 0 0 0 3 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <span>Caudal</span>
+  </a>
+  <nav class="nav" aria-label="Secciones">
+    <a href="#valle" data-nav="valle">Valle en el tiempo</a>
+    <a href="#ruta" data-nav="ruta">Ruta<i data-route-count hidden></i></a>
+  </nav>
+</header>
+<main id="app" tabindex="-1"><p class="loading">Cargando…</p></main>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
