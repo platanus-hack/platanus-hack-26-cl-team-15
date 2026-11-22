@@ -14,13 +14,13 @@ Solo la primera frase y la última, textuales, y las dos cifras de la slide 3 (c
 | 0:05 | Slide 2 | con la sequía, los pozos de los pueblos se agotaron · la gente depende de camiones aljibe · 5.700 millones en dos años · mientras tanto, ahí al lado, paltos verdes · ¿el problema? sin derechos de agua inscritos · solo si un vecino denuncia | "denuncia": pasa a la slide 3 |
 | 0:31 | Slide 3 | lo ve desde el satélite · casi 8 mil predios, 160 mil mediciones · clima y registro de derechos · le dice al inspector a dónde ir primero · ya tenemos los datos para el resto de Chile | "Chile": cambia al producto, clic en Aconcagua bajo |
 | 0:52 | Zona | valle del Aconcagua, vecino de Petorca · cerro seco: lo verde, alguien lo riega · más agua de la que tiene por derecho: alerta · 425 | "425": pestaña Casos, fila FO-95 |
-| 1:08 | Caso real | Hijuelas · la DGA lo fiscalizó, multa de 140 millones · en alerta **al menos dos años antes** · pausa de 2 segundos · 100 mil m³ de más, lo que consumen 1.500 personas | "1.500 personas": pestaña Predios, fila 5301984 |
-| 1:41 | Candidato | temporada pasada, misma comuna · 19 hectáreas, sin derechos, sin canal, sin fiscalizar · el mismo patrón, hoy · no acusa, prioriza · con un clic, el expediente | "con un clic": abre el expediente. "denuncias": pestaña Ruta |
-| 2:10 | Ruta | a dónde ir primero · 5 predios en una mañana, 71 km · dónde mirar | No cambia de pantalla |
-| 2:21 | Ruta | y funciona · casos ya multados: más del doble · 501 entre las dos zonas | "visitado": vuelve al deck, slide 4 |
-| 2:37 | Slide 4 | **"El agua que falta no se ve. El verde en pleno verano, sí."** · datos públicos, dispersos, faltaba cruzarlos · Nicolás, Felipe, Gabriela y Tomás · gracias | — |
+| 1:09 | Caso real | Hijuelas · la DGA lo fiscalizó, multa de 140 millones · pero Caudales ya lo tenía en alerta **al menos dos años antes** · pausa de 2 segundos · 100 mil m³ de más, lo que consumen 1.500 personas | "1.500 personas": pestaña Predios, fila 5301984 |
+| 1:42 | Candidato | temporada pasada, misma comuna · 19 hectáreas, sin derechos, sin canal, sin fiscalizar · el mismo patrón, pero hoy · no acusa, prioriza · con un clic, el expediente | "con un clic": abre el expediente. "denuncias": pestaña Ruta |
+| 2:11 | Ruta | a dónde ir primero · 5 predios en una mañana, 71 km · dónde mirar | No cambia de pantalla |
+| 2:22 | Ruta | ¿y funciona? · casos ya multados: más del doble · 501 entre las dos zonas | "visitado": vuelve al deck, slide 4 |
+| 2:39 | Slide 4 | **"El agua que falta no se ve. El verde en pleno verano, sí."** · datos públicos, dispersos, faltaba cruzarlos · Nicolás, Felipe, Gabriela y Tomás · gracias | — |
 
-Termina a los 2:50. El corte es a los 3:01, y la presentación se graba.
+Termina a los 2:52. El corte es a los 3:01, y la presentación se graba.
 
 Son dos rondas: la general de 9:30 a 11:30 y, si pasamos, la final de 12:30 a 3:30. La rúbrica de los 4 jueces: aspecto técnico 25 %, ambición 20 %, ejecución 20 %, impacto 20 %, originalidad 15 %.
 
@@ -28,7 +28,7 @@ Son dos rondas: la general de 9:30 a 11:30 y, si pasamos, la final de 12:30 a 3:
 
 Lee el titular de la pantalla: casi todos los números están ahí. El único que no está a la vista es el de 100 mil m³ y 1.500 personas.
 
-Si a los 2:16 no partió la ruta, sáltala y ve directo a "Y funciona".
+Si a los 2:17 no partió la ruta, sáltala y ve directo a "¿Y funciona?".
 
 ## Antes de subir
 

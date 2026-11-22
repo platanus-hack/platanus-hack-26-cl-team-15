@@ -54,11 +54,11 @@ Pasos:
 | 0:05 | "…solo si un vecino **denuncia**." | → | Slide 3: "7.911 predios" |
 | 0:31 | "…en el resto de **Chile**." | Ctrl+Tab. Clic en **Aconcagua bajo** en el mapa | El mapa vuela al valle. Panel: "De 3.639 predios, 425 tienen señal alta…" |
 | 0:52 | "Aquí son **425**." | Pestaña **Casos**. Clic en la tercera fila: **FO-95 · Hijuelas · 23-11-2021** | Ficha del caso FO-0504-95: multa de 1.983,9 UTM y "al menos 2,0 años antes" |
-| 1:08 | "…lo mismo que consumen **1.500 personas**." | Pestaña **Predios**. Baja tres filas y clic en **5301984 · 105–280** | Ficha "Predio 5301984", palto, 18,9 ha, Hijuelas |
-| 1:41 | "Por eso, **con un clic**…" | Clic en **Preparar expediente** | El PDF dentro del panel, en menos de 2 segundos |
+| 1:09 | "…lo mismo que consumen **1.500 personas**." | Pestaña **Predios**. Baja tres filas y clic en **5301984 · 105–280** | Ficha "Predio 5301984", palto, 18,9 ha, Hijuelas |
+| 1:42 | "Por eso, **con un clic**…" | Clic en **Preparar expediente** | El PDF dentro del panel, en menos de 2 segundos |
 | | "…formato oficial de **denuncias**." | Pestaña **Ruta** | "5 predios · 4 horas · 71 km" |
-| 2:21 | "Y funciona." | Nada | Sigue la ruta |
-| 2:37 | "…que nadie ha **visitado**." | Ctrl+Shift+Tab y → | Slide 4: "2 años", "2,6×", "501" |
+| 2:22 | "¿Y funciona?" | Nada | Sigue la ruta |
+| 2:39 | "…que nadie ha **visitado**." | Ctrl+Shift+Tab y → | Slide 4: "2 años", "2,6×", "501" |
 
 El paso del candidato es el único con truco, y hay que ensayarlo. Después de ver el caso, la pestaña Predios abre sola la lista completa y queda parada en la fila del caso, marcada con borde celeste y la etiqueta "CASO FO-95", al fondo del panel. El candidato es la tercera fila hacia abajo: bajas un poco con la rueda y haces clic en 5301984, que tiene el rango 105–280. Solo funciona si vienes de la ficha del caso; si llegas a Predios por otro camino, la lista parte desde arriba.
 
@@ -77,7 +77,7 @@ Cuatro cuidados:
 | No encuentras el candidato en 5 segundos | Al final de la dirección agrega `#candidato` y Enter. También existen `#caso` y `#ruta` |
 | La página se recargó y aparece la intro | "Saltar intro" y sigue desde el paso en que iban |
 | El expediente no aparece en 3 segundos | No esperes y no aprietes "Reintentar". Muestra la pestaña 3, que tiene el PDF de respaldo, y vuelve al producto para la pestaña Ruta |
-| Tomás se salta la ruta y dice "Y funciona" | Pestaña Ruta igual: esa frase se dice con la ruta en pantalla |
+| Tomás se salta la ruta y dice "¿Y funciona?" | Pestaña Ruta igual: esa frase se dice con la ruta en pantalla |
 | Hiciste clic en otro predio | El botón de volver de arriba del panel, y repite el clic |
 | Se cae la red | Sigue igual. La página ya quedó cargada en la preparación |
 

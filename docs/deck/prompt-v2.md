@@ -17,7 +17,7 @@ le importa a quien mira. Nada de mercado, modelo de negocio, clientes ni pedidos
 ## Formato del evento
 - 3:00 con corte duro, 2:00 de preguntas del jurado, 1:30 de deliberación y cambio de equipo.
 - Habla una persona (Tomás); otra maneja el computador.
-- El deck solo cubre la apertura (0:00–0:52) y el cierre (2:37–2:50). Entre medio se muestra
+- El deck solo cubre la apertura (0:00–0:52) y el cierre (2:39–2:52). Entre medio se muestra
   el producto en vivo, sin slides. La última slide de apertura y la de cierre tienen que verse
   de la misma familia que el producto, para que el cambio de pantalla no se note.
 
@@ -96,7 +96,7 @@ Lenguaje gráfico:
      "14 regiones" · etiqueta: DATOS BASE YA DESCARGADOS · contexto: PARA PROBARLO EN EL RESTO DE CHILE
    (Después de esta slide se cambia al producto en vivo.)
 
-4. CIERRE (2:37–2:50). Se queda en pantalla durante las preguntas.
+4. CIERRE (2:39–2:52). Se queda en pantalla durante las preguntas.
    Tercio superior: tres bloques de dato en una fila, con el número enorme.
      "2 años"  · etiqueta: ANTES QUE LA INSPECCIÓN, AL MENOS · contexto: CASO REAL EN HIJUELAS
      "2,6×"    · etiqueta: MÁS INFRACCIONES QUE SIN LA LISTA · contexto: 19 CASOS DE LA DGA
