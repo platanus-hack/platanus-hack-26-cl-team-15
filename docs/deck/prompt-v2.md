@@ -2,7 +2,7 @@
 
 Nov 22, 2026 · @Tomas
 
-Prompt para la herramienta que diseña las slides. Parte del prompt original de Gabi y agrega lo decidido el 22-11: el nombre Caudales, la frase de la portada, la apertura de 50 segundos, con el tramo de solución que sugiere la organización, y las slides de reserva como cifras. Los textos y las cifras son los mismos de [index.html](index.html), que sirve de referencia visual (se abre en el navegador). El guion hablado está en [../pitch-demo.md](../pitch-demo.md).
+Prompt para la herramienta que diseña las slides. Parte del prompt original de Gabi y agrega lo decidido el 22-11: el nombre Caudales, la frase de la portada, la apertura de 52 segundos, con el tramo de solución que sugiere la organización, y las slides de reserva como cifras. Los textos y las cifras son los mismos de [index.html](index.html), que sirve de referencia visual (se abre en el navegador). El guion hablado está en [../pitch-demo.md](../pitch-demo.md).
 
 Pegar desde aquí:
 
@@ -17,7 +17,7 @@ le importa a quien mira. Nada de mercado, modelo de negocio, clientes ni pedidos
 ## Formato del evento
 - 3:00 con corte duro, 2:00 de preguntas del jurado, 1:30 de deliberación y cambio de equipo.
 - Habla una persona (Tomás); otra maneja el computador.
-- El deck solo cubre la apertura (0:00–0:50) y el cierre (2:34–2:47). Entre medio se muestra
+- El deck solo cubre la apertura (0:00–0:52) y el cierre (2:37–2:50). Entre medio se muestra
   el producto en vivo, sin slides. La última slide de apertura y la de cierre tienen que verse
   de la misma familia que el producto, para que el cambio de pantalla no se note.
 
@@ -82,12 +82,12 @@ Lenguaje gráfico:
    Abajo, tenue: silueta de Chile en líneas finas cian, que se funde al negro, con un punto
    en Petorca. Chips: PETORCA · ACONCAGUA BAJO y PLATANUS HACK 26 · PHYSICAL WORLD
 
-2. EL PROBLEMA (0:05–0:29)
+2. EL PROBLEMA (0:05–0:31)
    Grande: "50 litros al día" · secundario: "40 mil personas en Petorca. El agua llega en camión."
    Tercio inferior, tenue: bloque de dato "$5.700 millones", etiqueta "EN CAMIONES ALJIBE · 2023 Y 2024"
    Fuente en mono chica: "RADIO JGM, U. DE CHILE (2020) · CONSEJO PARA LA TRANSPARENCIA (2026)"
 
-3. LA SOLUCIÓN (0:29–0:50). Es el tramo que pide la organización: qué es, qué tan ambicioso y
+3. LA SOLUCIÓN (0:31–0:52). Es el tramo que pide la organización: qué es, qué tan ambicioso y
    cuánto se avanzó.
    Grande: "7.911 predios" · secundario: "mirados desde el satélite y cruzados con sus derechos de agua."
    Tercio inferior, tenue: tres bloques de dato chicos en una fila.
@@ -96,7 +96,7 @@ Lenguaje gráfico:
      "14 regiones" · etiqueta: DATOS BASE YA DESCARGADOS · contexto: PARA PROBARLO EN EL RESTO DE CHILE
    (Después de esta slide se cambia al producto en vivo.)
 
-4. CIERRE (2:34–2:47). Se queda en pantalla durante las preguntas.
+4. CIERRE (2:37–2:50). Se queda en pantalla durante las preguntas.
    Tercio superior: tres bloques de dato en una fila, con el número enorme.
      "2 años"  · etiqueta: ANTES QUE LA INSPECCIÓN, AL MENOS · contexto: CASO REAL EN HIJUELAS
      "2,6×"    · etiqueta: MÁS INFRACCIONES QUE SIN LA LISTA · contexto: 19 CASOS DE LA DGA

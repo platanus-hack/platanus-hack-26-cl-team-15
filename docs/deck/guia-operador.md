@@ -52,13 +52,13 @@ Pasos:
 | --- | --- | --- | --- |
 | 0:00 | "Hola, soy Tomás, y esto es **Caudales**." | → en el deck | Slide 2: "50 litros al día" |
 | 0:05 | "…solo si un vecino **denuncia**." | → | Slide 3: "7.911 predios" |
-| 0:29 | "…en el resto de **Chile**." | Ctrl+Tab. Clic en **Aconcagua bajo** en el mapa | El mapa vuela al valle. Panel: "De 3.639 predios, 425 tienen señal alta…" |
-| 0:50 | "Aquí son **425**." | Pestaña **Casos**. Clic en la tercera fila: **FO-95 · Hijuelas · 23-11-2021** | Ficha del caso FO-0504-95: multa de 1.983,9 UTM y "al menos 2,0 años antes" |
-| 1:05 | "…lo mismo que consumen **1.500 personas**." | Pestaña **Predios**. Baja tres filas y clic en **5301984 · 105–280** | Ficha "Predio 5301984", palto, 18,9 ha, Hijuelas |
-| 1:38 | "Por eso, **con un clic**…" | Clic en **Preparar expediente** | El PDF dentro del panel, en menos de 2 segundos |
+| 0:31 | "…en el resto de **Chile**." | Ctrl+Tab. Clic en **Aconcagua bajo** en el mapa | El mapa vuela al valle. Panel: "De 3.639 predios, 425 tienen señal alta…" |
+| 0:52 | "Aquí son **425**." | Pestaña **Casos**. Clic en la tercera fila: **FO-95 · Hijuelas · 23-11-2021** | Ficha del caso FO-0504-95: multa de 1.983,9 UTM y "al menos 2,0 años antes" |
+| 1:08 | "…lo mismo que consumen **1.500 personas**." | Pestaña **Predios**. Baja tres filas y clic en **5301984 · 105–280** | Ficha "Predio 5301984", palto, 18,9 ha, Hijuelas |
+| 1:41 | "Por eso, **con un clic**…" | Clic en **Preparar expediente** | El PDF dentro del panel, en menos de 2 segundos |
 | | "…formato oficial de **denuncias**." | Pestaña **Ruta** | "5 predios · 4 horas · 71 km" |
-| 2:18 | "Y funciona." | Nada | Sigue la ruta |
-| 2:34 | "…que nadie ha **visitado**." | Ctrl+Shift+Tab y → | Slide 4: "2 años", "2,6×", "501" |
+| 2:21 | "Y funciona." | Nada | Sigue la ruta |
+| 2:37 | "…que nadie ha **visitado**." | Ctrl+Shift+Tab y → | Slide 4: "2 años", "2,6×", "501" |
 
 El paso del candidato es el único con truco, y hay que ensayarlo. Después de ver el caso, la pestaña Predios abre sola la lista completa y queda parada en la fila del caso, marcada con borde celeste y la etiqueta "CASO FO-95", al fondo del panel. El candidato es la tercera fila hacia abajo: bajas un poco con la rueda y haces clic en 5301984, que tiene el rango 105–280. Solo funciona si vienes de la ficha del caso; si llegas a Predios por otro camino, la lista parte desde arriba.
 
@@ -116,4 +116,4 @@ Las slides de reserva siguen en el deck. Con el deck al frente, aprieta su núme
 
 ## Ensayo
 
-Dos pasadas completas con Tomás a las 7:40, con el computador de la demo y el cronómetro a la vista. La meta es terminar antes de 2:50. Repite cinco veces seguidas el paso del candidato hasta que salga sin mirar.
+Dos pasadas completas con Tomás a las 7:40, con el computador de la demo y el cronómetro a la vista. La meta es terminar antes de 2:55. Repite cinco veces seguidas el paso del candidato hasta que salga sin mirar.

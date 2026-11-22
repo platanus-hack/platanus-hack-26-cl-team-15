@@ -54,21 +54,21 @@ Cuatro ideas que el jurado debe recordar:
 
 ## Guion
 
-Toda la demo ocurre en una sola zona (Aconcagua bajo, comuna de Hijuelas) para no gastar tiempo en vuelos entre zonas. El producto está en pantalla desde el 0:50 hasta el 2:34 (1:44); el recorrido de las cuatro pantallas dura 1:29. La apertura y el cierre van con el deck ([deck/index.html](deck/index.html), 4 slides y 4 de reserva): se abre en el navegador, con las flechas se avanza y con F se pone en pantalla completa.
+Toda la demo ocurre en una sola zona (Aconcagua bajo, comuna de Hijuelas) para no gastar tiempo en vuelos entre zonas. El producto está en pantalla desde el 0:52 hasta el 2:37 (1:45); el recorrido de las cuatro pantallas dura 1:29. La apertura y el cierre van con el deck ([deck/index.html](deck/index.html), 4 slides y 4 de reserva): se abre en el navegador, con las flechas se avanza y con F se pone en pantalla completa.
 
 | Tiempo | Segundos | Tramo | Qué se ve |
 | --- | --- | --- | --- |
 | 0:00–0:05 | 5 | Intro | Slide 1: CAUDALES y "El agua está repartida. No todos respetan su parte." |
-| 0:05–0:29 | 24 | El problema | Slide 2: "50 litros al día" |
-| 0:29–0:50 | 21 | La solución | Slide 3: "7.911 predios", 160 mil mediciones, 7 veranos, 14 regiones. Al terminar se cambia al producto |
-| 0:50–1:05 | 15 | Demo: la zona | Vuelo a Aconcagua bajo; panel "De 3.639 predios, 425 tienen señal alta…" |
-| 1:05–1:38 | 33 | Demo: el caso real | Ficha del caso FO-0504-95: multa, "al menos 2,0 años antes" y el agua estimada |
-| 1:38–2:07 | 29 | Demo: un candidato de hoy | Ficha del candidato; se abre el expediente PDF |
-| 2:07–2:18 | 11 | Demo: la ruta de mañana | Pestaña Ruta: "5 predios · 4 horas · 71 km" |
-| 2:18–2:34 | 16 | Qué tan bien funciona | Sigue la pestaña Ruta: no se cambia de pantalla |
-| 2:34–2:47 | 13 | Cierre | Slide 4: 2 años, 2,6× y 501; caudales.dev y equipo. Se queda durante las preguntas |
+| 0:05–0:31 | 26 | El problema | Slide 2: "50 litros al día" |
+| 0:31–0:52 | 21 | La solución | Slide 3: "7.911 predios", 160 mil mediciones, 7 veranos, 14 regiones. Al terminar se cambia al producto |
+| 0:52–1:08 | 16 | Demo: la zona | Vuelo a Aconcagua bajo; panel "De 3.639 predios, 425 tienen señal alta…" |
+| 1:08–1:41 | 33 | Demo: el caso real | Ficha del caso FO-0504-95: multa, "al menos 2,0 años antes" y el agua estimada |
+| 1:41–2:10 | 29 | Demo: un candidato de hoy | Ficha del candidato; se abre el expediente PDF |
+| 2:10–2:21 | 11 | Demo: la ruta de mañana | Pestaña Ruta: "5 predios · 4 horas · 71 km" |
+| 2:21–2:37 | 16 | Qué tan bien funciona | Sigue la pestaña Ruta: no se cambia de pantalla |
+| 2:37–2:50 | 13 | Cierre | Slide 4: 2 años, 2,6× y 501; caudales.dev y equipo. Se queda durante las preguntas |
 
-Termina a los 2:47: quedan 14 segundos antes del corte, que es a los 3:01. El reparto sale de la revisión del 22-11 con tres espectadores simulados (alguien cansado en la quinta fila, un jurado técnico y un coach de demo day) y de los tiempos medidos en producción: la zona carga en 2,6 segundos, el caso y el candidato abren al instante y el expediente en menos de 2. No hay esperas que cubrir hablando.
+Termina a los 2:50: quedan 11 segundos antes del corte, que es a los 3:01. El reparto sale de la revisión del 22-11 con tres espectadores simulados (alguien cansado en la quinta fila, un jurado técnico y un coach de demo day) y de los tiempos medidos en producción: la zona carga en 2,6 segundos, el caso y el candidato abren al instante y el expediente en menos de 2. No hay esperas que cubrir hablando.
 
 ### Estructura de la organización
 
@@ -82,30 +82,30 @@ El tono es hablado. No se nombran satélites, índices ni métodos (Sentinel-2, 
 "Hola, soy Tomás, y esto es Caudales."
 
 **0:05 El problema.**
-"Con la sequía, en Petorca los pozos de los pueblos se agotaron. Hay gente que vive con agua de camión: llegaron a ser 50 litros al día. En dos años, el Estado gastó 5.700 millones en llevarla. Y ahí mismo hay paltos verdes en pleno verano, con más agua de la que les toca. Hoy eso se pilla solo si un vecino denuncia."
+"En Petorca, con la sequía, los pozos de los pueblos se agotaron. La gente depende de camiones aljibe, que en dos años le costaron al Estado más de 5.700 millones. Y mientras tanto, ahí al lado, hay hectáreas de paltos verdes en pleno verano. ¿El problema? Varios de esos predios ni siquiera tienen derechos de agua inscritos. Y hoy eso se pilla solo si un vecino denuncia."
 
-**0:29 La solución.**
-"Caudales lo ve desde el satélite. Revisa casi 8 mil predios, con más de 160 mil mediciones. Las cruza con el clima y con el registro público de derechos de agua. Y le dice al inspector a dónde ir primero. Ya tenemos los datos para probarlo en el resto de Chile."
+**0:31 La solución.**
+"Caudales lo ve desde el satélite. Revisa casi 8 mil predios, con más de 160 mil mediciones, y las cruza con el clima y con el registro público de derechos de agua, para decirle al inspector a dónde ir primero. Ya tenemos los datos para probarlo en el resto de Chile."
 
-**0:50 Demo: la zona.**
-"Este es el valle del Aconcagua, vecino de Petorca. En verano el cerro está seco: lo que sigue verde, alguien lo riega. Si usa más agua de la que tiene por derecho, queda en alerta. Aquí son 425."
+**0:52 Demo: la zona.**
+"Este es el valle del Aconcagua, vecino de Petorca. En verano el cerro está seco, así que lo que sigue verde, alguien lo riega. Si usa más agua de la que tiene por derecho, queda en alerta. Aquí son 425."
 
-**1:05 Demo: el caso real.**
+**1:08 Demo: el caso real.**
 "Miren este predio de paltos, en Hijuelas. La Dirección General de Aguas lo fiscalizó y lo multó con más de 140 millones de pesos, por sacar agua sin derechos. Caudales ya lo tenía en alerta al menos dos años antes de que llegara un inspector. En ese tiempo, según nuestra estimación, se llevó 100 mil metros cúbicos de más: lo mismo que consumen 1.500 personas."
 
-**1:38 Demo: un candidato de hoy.**
-"Ahora vamos a la temporada pasada, en la misma comuna. Diecinueve hectáreas de paltos, verdes todo el verano. Sin derechos de agua inscritos, sin un canal cerca, y nadie lo ha fiscalizado. El mismo patrón, hoy. Ojo: Caudales no acusa, prioriza; la infracción la confirma un inspector en terreno. Por eso, con un clic, sale con el expediente ya escrito, en el formato oficial de denuncias."
+**1:41 Demo: un candidato de hoy.**
+"Ahora vamos a la temporada pasada, en la misma comuna. Son diecinueve hectáreas de paltos, verdes todo el verano, sin derechos de agua inscritos ni un canal cerca, y nadie lo ha fiscalizado. El mismo patrón, hoy. Ojo: Caudales no acusa, prioriza; la infracción la confirma un inspector en terreno. Por eso, con un clic, sale con el expediente ya escrito, en el formato oficial de denuncias."
 
-**2:07 Demo: la ruta de mañana.**
+**2:10 Demo: la ruta de mañana.**
 "Esto es lo que importa: a dónde ir primero. Cinco predios en una mañana, 71 kilómetros, y en cada uno, dónde mirar."
 
-**2:18 Qué tan bien funciona.**
+**2:21 Qué tan bien funciona.**
 "Y funciona. Lo probamos con los casos que la DGA ya multó: con esta lista se encuentran más del doble de infracciones que sin ella. Hoy, entre las dos zonas, hay 501 predios en alerta que nadie ha visitado."
 
-**2:34 Cierre.**
+**2:37 Cierre.**
 "El agua que falta no se ve. El verde en pleno verano, sí. Todo esto con datos públicos, que estaban ahí, dispersos: faltaba cruzarlos. Somos Nicolás, Felipe, Gabriela y Tomás. Gracias."
 
-El texto tiene 382 palabras (Intro: 7 · El problema: 63 · La solución: 51 · la zona: 38 · el caso real: 65 · un candidato de hoy: 66 · la ruta de mañana: 22 · Qué tan bien funciona: 39 · Cierre: 31). A 150 palabras por minuto son 2:33 hablando; el resto son los clics, los vuelos y las pausas.
+El texto tiene 389 palabras (Intro: 7 · El problema: 67 · La solución: 51 · la zona: 40 · el caso real: 65 · un candidato de hoy: 67 · la ruta de mañana: 22 · Qué tan bien funciona: 39 · Cierre: 31). A 150 palabras por minuto son 2:36 hablando; el resto son los clics, los vuelos y las pausas.
 
 Cuidados al decirlo:
 
@@ -114,17 +114,19 @@ Cuidados al decirlo:
 - **Las cifras cambian de escala y hay que decirlo.** La pantalla de la zona dice 3.639 predios y 425 en alerta; el 501 es de las dos zonas juntas y sin fiscalizar. Por eso el guion dice "en esta zona" y "entre las dos zonas".
 - **El expediente del candidato ya está generado.** La pantalla dice "Generado el…, el servidor lo reutiliza". Por eso el guion no dice "se está generando ahora". Si el jurado pide verlo generarse, se pide el de otro predio: tarda unos 5 segundos y la pantalla muestra los pasos.
 - **La multa en pantalla dice 1.983,9 UTM, unos $144 millones** al valor de la UTM de `impacto.json`. La DGA informó "más de 127 millones" en su momento. El guion dice "más de 140" para calzar con la pantalla.
+- **El problema se dice de corrido, como se cuenta, no como lista.** Las frases van unidas con "y mientras tanto" y con una sola pregunta ("¿El problema?"). Los 50 litros ya no se dicen: quedan en la slide 2, como apoyo.
+- **"Ahí al lado" y "ni siquiera tienen derechos" tienen respaldo, pero no apuntan a un predio.** 59 de los 90 sistemas de agua potable rural de las comunas estudiadas tienen un predio en alerta alta a menos de 1 km (`apr.parquet`). De los 334 predios en alerta alta de Petorca, 287 no tienen derechos propios ubicados en el registro de la DGA (647 de 759 entre las dos zonas). Hay que decir "inscritos": el agua de canal no está en ese registro.
 - **"Con la sequía, los pozos se agotaron" no dice quién los agotó.** La sequía se nombra y no se explica: la sala ya la conoce. El guion deja que el público una esa frase con los paltos verdes. Si el jurado pregunta por la causa, son las dos cosas, sequía y extracción: la napa de Petorca y La Ligua bajó sobre todo por causas humanas (expansión del palto, riego y derechos otorgados de más), no por el clima, según un estudio revisado por pares. No decir "los paltos secaron los pozos".
 - **Los 5.700 millones son contratos adjudicados**, según el Consejo para la Transparencia. El guion dice "gastó"; la slide solo dice "en camiones aljibe · 2023 y 2024". Si el jurado pregunta, la respuesta exacta es "contratados".
 - **Desde la quinta fila solo se ve el tercio superior.** Cada cifra se dice en voz alta; ninguna se deja a la pantalla.
 - **Si falta tiempo**, se salta "y en cada uno, dónde mirar" y, si hace falta, la ruta entera.
-- **Escrito para el oído.** Reglas que se aplicaron al texto (guía de oradores de TEDx y Toastmasters): una idea por oración; ninguna oración de más de 22 palabras; la misma palabra no aparece en dos oraciones seguidas, salvo las que son el tema (agua, alerta, derechos); una sola palabra para cada cosa (siempre "inspector", nunca "fiscalizador"); afirmaciones en vez de preguntas; no se describe lo que ya se ve en pantalla. Dos repeticiones son a propósito: "a dónde ir primero" aparece en la solución y vuelve en la ruta, y "verde en pleno verano" abre el problema y cierra la presentación.
+- **Escrito para el oído.** Reglas que se aplicaron al texto (guía de oradores de TEDx y Toastmasters): una idea por oración; ninguna oración de más de 22 palabras; la misma palabra no aparece en dos oraciones seguidas, salvo las que son el tema (agua, alerta, derechos); una sola palabra para cada cosa (siempre "inspector", nunca "fiscalizador"); afirmaciones en vez de preguntas, salvo una en el problema; no se describe lo que ya se ve en pantalla. Dos repeticiones son a propósito: "a dónde ir primero" aparece en la solución y vuelve en la ruta, y "verde en pleno verano" abre el problema y cierra la presentación.
 
 ## Cifras del guion y su respaldo
 
 | Frase | Valor y cálculo | Fuente | Advertencia |
 | --- | --- | --- | --- |
-| 40 mil personas con 50 litros al día | 40.000 personas en la provincia de Petorca | [Radio JGM, U. de Chile, 04-05-2020](https://radiojgm.uchile.cl/de-50-a-100-litros-de-agua-el-suministro-que-el-minsal-no-pudo-cumplir/) | Los 50 litros son de 2020 y en 2021 la Corte Suprema subió la dotación a 100: por eso va en pasado ("llegaron a ser"). Lo que va en presente es el camión, que sigue: 41.201 m³ contratados entre enero y marzo de 2026 (Mercado Público) |
+| 40 mil personas con 50 litros al día | 40.000 personas en la provincia de Petorca | [Radio JGM, U. de Chile, 04-05-2020](https://radiojgm.uchile.cl/de-50-a-100-litros-de-agua-el-suministro-que-el-minsal-no-pudo-cumplir/) | Solo en la slide 2; el guion ya no lo dice. Es un dato de 2020: en 2021 la Corte Suprema subió la dotación a 100 litros. "La gente depende de camiones aljibe" va en presente porque sigue: 41.201 m³ contratados entre enero y marzo de 2026 (Mercado Público) |
 | Con la sequía, los pozos de los pueblos se agotaron | Megasequía de Chile central desde 2010 (Garreaud et al., 2020, *Int. J. Climatol.*). La baja de las napas cortó el agua para necesidades básicas en las cuencas de Petorca y La Ligua; el agotamiento se debe sobre todo a causas humanas | [Alvarez-Garreton et al. (2024), HESS 28, 1605](https://hess.copernicus.org/articles/28/1605/2024/); [Duran-Llacer et al. (2020), Water 12(9), 2446](https://doi.org/10.3390/w12092446) (tabla de [spec-agua-potable.md](spec-agua-potable.md)) | No se agotaron todos: es un hecho general de la provincia, sin cifra. No atribuirlo a un predio |
 | 5.700 millones en camiones aljibe | $5.710 millones en contratos de la Delegación Presidencial Provincial de Petorca, 2023 y 2024 sumados | [Consejo para la Transparencia, 05-10-2026](https://www.consejotransparencia.cl/fiscalizacion-cplt-municipios-y-delegaciones-contrataron-mas-de-30-mil-millones-en-camiones-aljibe-en-2023-y-2024-pero-a-cuantas-familias-llego-el-agua-potable/) | El guion dice "gastó" porque es lo natural al hablar (decisión del 22-11). El dato exacto son montos contratados e informados por la delegación, no pagos: si preguntan, decirlo así. Leímos el comunicado; el informe completo no abrió |
 | Multa de más de 140 millones | 1.983,9 UTM × $72.450 = $143,7 millones | Planilla de la DGA; UTM de `impacto.json` (`supuestos.utm_clp`) | Es lo que muestra la ficha del caso. La nota de prensa de la DGA dijo "más de 127 millones", con la UTM de entonces |
