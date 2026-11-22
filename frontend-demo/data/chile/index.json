@@ -259,7 +259,14 @@
    ],
    "aplicabilidad": "sur_humedo",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R10.geojson",
+   "predios_region": 48632,
+   "alertas": {
+    "alta": 0,
+    "media": 0
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R11",
