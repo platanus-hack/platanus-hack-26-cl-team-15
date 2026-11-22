@@ -2,15 +2,21 @@
 
 21-11-2026 · plazo: 12 horas · complementa [spec-v2.md](spec-v2.md) y [spec-demo.md](spec-demo.md)
 
-## Estado de la corrida (22-11, 23:50)
+## Estado de la corrida (22-11, 07:55)
+
+**Corrida completa en las 14 regiones.**
 
 | Etapa | Estado |
 | --- | --- |
-| `base` | ✅ 14 de 14 regiones (`caudal-chile-datos-l4dth`), sin fallas |
-| `plan` | ✅ Solo Valparaíso, con el año completo (abril de 2025 a hoy): 8 tiles, 1.198 escenas, 40 partes |
-| `satelite` | ✅ Valparaíso: 40 de 40 tareas en 4 regiones de Cloud Run, sin fallas, en unos 20 min (~60 escenas por minuto en total) |
-| `region` | ▶ Valparaíso en curso (`caudal-chile-prediccion-shzbz`): M1–M5 y la exportación web |
-| Resto de Chile | Pendiente: `plan` y `satelite` de las otras 13 regiones (solo temporada seca), luego `region` y `nacional` |
+| `base` | ✅ 14 de 14 regiones |
+| `plan` | ✅ 4.413 escenas en 100 tiles. Valparaíso con el año completo; el resto, temporada seca |
+| `satelite` | ✅ 40 de 40 partes. Hubo dos relanzamientos: por el reparto (de escenas sueltas a tramos de tile) y por memoria en 3 tiles pesados (con `HILOS=4`) |
+| `region` | ✅ 14 de 14 regiones, en 3 ejecuciones en paralelo (us-west1, us-west2 y us-west4) |
+| `nacional` | ✅ Regresión aprobada: 97,1 % de coincidencia de banda en los 7.911 predios de Z1 y Z2 y 10 de 10 casos de validación en la misma banda. `web/ACTUAL` → `chile-2025-26` |
+
+- **Capa del mapa:** `frontend-demo/data/chile/`, generada por `build_chile_web.py`. Fuera de Z1 y Z2 hay 31.079 predios en alerta: 23.372 en alta y 7.707 en media. Es exploratoria (ver [Regiones](#regiones-configregionesjson)). En el sur no hay alerta alta, por la regla de `sur_humedo`.
+- **API:** `GET /api/chile` y siguientes, desde el bucket montado (ver `api/README.md`). Para Z1 y Z2, la fuente sigue siendo `/api/predios`.
+- **Imagen de los jobs:** `caudal-jobs/pipeline:88934d2a6044`.
 
 ### Qué datos ya están disponibles
 
