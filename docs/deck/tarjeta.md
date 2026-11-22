@@ -33,7 +33,7 @@ Si a los 2:13 no partió la ruta, sáltala y ve directo a "Y funciona".
 ## Antes de subir
 
 - [ ] `caudales.dev/?demo=1` abierto con la pestaña al frente. En segundo plano la intro no avanza.
-- [ ] El deck en otra pestaña, en pantalla completa (tecla F), en la slide 1. Son 3 slides antes del producto y 1 de cierre.
+- [ ] El deck en otra pestaña, en la slide 1, con la ventana del navegador en pantalla completa. Son 3 slides antes del producto y 1 de cierre. Los pasos de quien maneja están en [guia-operador.md](guia-operador.md).
 - [ ] Probar una vez las teclas 2, 3, 4 y 5, y que el expediente abre.
 - [ ] Cronómetro a la vista.
 
