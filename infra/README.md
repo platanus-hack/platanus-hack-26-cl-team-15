@@ -27,7 +27,7 @@ infra/
     ├── almacenamiento/      bucket ph-26-caudal-chile y sus permisos (jobs escriben, caudal-web lee)
     ├── secretos/            secreto CDS_API_KEY (valor provisorio PENDIENTE) y acceso de caudal-jobs
     ├── artefactos/          repositorio caudal-jobs de Artifact Registry y sus permisos
-    ├── jobs/                Cloud Run Jobs de datos, satélite (4 regiones) y predicción
+    ├── jobs/                Cloud Run Jobs de datos, satélite (3 regiones) y predicción
     └── cuota/               solicitud de cuota de Cloud Run en us-west1 (opcional)
 ```
 
@@ -41,7 +41,7 @@ infra/
 | Job | Región | Recursos | Timeout | Reintentos | `ETAPA` |
 | --- | --- | --- | --- | --- | --- |
 | `caudal-chile-datos` | us-west1 | 4 vCPU, 8 GiB | 6 h | 2 | `base` (también `plan`) |
-| `caudal-chile-satelite` | us-west1, us-west2, us-west4 | 2 vCPU, 4 GiB | 6 h | 2 | `satelite` (`HILOS=10`, `PARTE_BASE` = 0, 10, 20, 30) |
+| `caudal-chile-satelite` | us-west1, us-west2, us-west4 | 2 vCPU, 4 GiB | 6 h | 2 | `satelite` (`HILOS=10`, `PARTE_BASE` = 0, 10, 20; las partes 30 a 39 van en una segunda ejecución) |
 | `caudal-chile-prediccion` | us-west1 | 8 vCPU, 32 GiB | 3 h | 1 | `region` |
 
 Todos usan la imagen `us-west1-docker.pkg.dev/ph-26-caudal/caudal-jobs/pipeline:<version>` (ver [Imagen de los jobs](#imagen-de-los-jobs)), corren como `caudal-jobs` en gen2 y montan el bucket en `/datos` (caché de metadatos de 600 s). Variables de entorno: `CAUDAL_DATA=/datos`, `CORRIDA`, `ETAPA`, `HILOS` y `PARTE_BASE` (solo satélite), más `CDS_API_KEY` desde Secret Manager.
@@ -114,12 +114,12 @@ Los jobs leen la versión `latest`, así que no hay que redesplegar.
 gcloud beta quotas preferences list --project ph-26-caudal
 ```
 
-Mientras no se apruebe, rige el límite por defecto de 20 vCPU y 40 GiB por región, que es lo que asume el reparto en 4 regiones.
+Mientras no se apruebe, rige el límite por defecto de 20 vCPU y 40 GiB por región, que es lo que asume el reparto en 3 regiones.
 
 **Montar el bucket en `caudal-web` (decisión pendiente).** Terraform no modifica el servicio. Los permisos de lectura ya están dados. Para montarlo (esto crea una revisión nueva):
 
 ```bash
-gcloud run services update caudal-web --region southamerica-west1 --project ph-26-caudal \
+gcloud run services update caudal-web --region us-central1 --project ph-26-caudal \
   --add-volume name=chile,type=cloud-storage,bucket=ph-26-caudal-chile,readonly=true,mount-options=metadata-cache-ttl-secs=600 \
   --add-volume-mount volume=chile,mount-path=/usr/share/nginx/html/data/chile
 ```
@@ -137,7 +137,8 @@ P="--project ph-26-caudal"
 gcloud run jobs execute caudal-chile-datos --region us-west1 $P --tasks 1  --update-env-vars ETAPA=plan
 gcloud run jobs execute caudal-chile-datos --region us-west1 $P --tasks 14 --update-env-vars ETAPA=base
 
-# Satélite: 10 tareas en cada una de las 4 regiones (N = 40 partes)
+# Satélite: N = 40 partes. 10 tareas en cada una de las 3 regiones (partes 0 a 29); las 30 a 39, después, con
+# --update-env-vars "^;^ETAPA=satelite;PARTE_BASE=30" en la primera región que se libere
 for r in us-west1 us-west2 us-west4; do
   gcloud run jobs execute caudal-chile-satelite --region $r $P --tasks 10 --update-env-vars ETAPA=satelite
 done

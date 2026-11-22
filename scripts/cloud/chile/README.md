@@ -11,7 +11,7 @@ dentro de los jobs. Los jobs usan la imagen del repositorio, con `/app` = este r
 | `entrada.py` | Punto de entrada. Despacha `ETAPA` y la tarea (`CLOUD_RUN_TASK_INDEX`), arma la carpeta de trabajo desde `/datos`, salta lo ya hecho y copia el log a `logs/` |
 | `plan.py` | Etapa `plan`: búsqueda STAC por tile, celdas ocupadas, reparto en N partes |
 | `prediccion.py` | Etapas `region` (serie por región, M1 a M5, exportación web) y `nacional` (ranking, resumen, comprobación de regresión, `web/ACTUAL`) |
-| `ejecutar.sh ETAPA [TAREAS]` | Lanza una etapa con `gcloud run jobs execute` (`satelite` en las 4 regiones de Cloud Run) |
+| `ejecutar.sh ETAPA [TAREAS]` | Lanza una etapa con `gcloud run jobs execute` (`satelite` en las 3 regiones de Cloud Run) |
 | `progreso.sh` | Escenas del plan contra escenas en caché, regiones terminadas, últimas ejecuciones y último log |
 
 Fuera de esta carpeta: `scripts/comun/rutas.py` (`CAUDAL_DATA` y `CAUDAL_ZONAS`), `scripts/comun/arcgis.py` (consultas
@@ -23,7 +23,8 @@ con reintentos y paginación), `scripts/comun/celdas.py` (celdas de 512 píxeles
 ```bash
 scripts/cloud/chile/ejecutar.sh base        # 14 tareas, una por región (caudal-chile-datos)
 scripts/cloud/chile/ejecutar.sh plan        # 1 tarea: escenas, polígonos por tile y N = 40 partes
-scripts/cloud/chile/ejecutar.sh satelite    # 10 tareas en cada una de 4 regiones (caudal-chile-satelite)
+scripts/cloud/chile/ejecutar.sh satelite    # 10 tareas en cada una de 3 regiones (partes 0 a 29, caudal-chile-satelite)
+# partes 30 a 39: una segunda ejecución en la primera región libre (ver docs/spec-chile.md, etapa satelite)
 CORRIDA=chile-2025-26 scripts/cloud/chile/ejecutar.sh region     # 14 tareas (caudal-chile-prediccion)
 CORRIDA=chile-2025-26 scripts/cloud/chile/ejecutar.sh nacional   # 1 tarea
 scripts/cloud/chile/progreso.sh

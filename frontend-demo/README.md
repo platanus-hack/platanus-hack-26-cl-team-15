@@ -18,14 +18,14 @@ Hace falta un servidor local (módulos ES y `fetch` no funcionan con `file://`).
 
 ## Despliegue (Cloud Run)
 
-Desplegado en **https://caudal-web-170658673954.southamerica-west1.run.app** (servicio `caudal-web`).
+Desplegado en **https://caudales.dev** (servicio `caudal-web` en `us-central1`, la región del domain mapping de `caudales.dev` y `www.caudales.dev`). La API que llama está en `southamerica-west1` ([js/config.js](js/config.js)).
 
 La carpeta trae su `Dockerfile`: nginx sirviendo los archivos tal cual, sin build. No hace falta
 `package.json` ni scripts `build`/`start`.
 
 ```bash
-# desde la raíz del repo (proyecto ph-26-caudal, región southamerica-west1)
-gcloud run deploy caudal-web --source frontend-demo --allow-unauthenticated
+# desde la raíz del repo (proyecto ph-26-caudal)
+gcloud run deploy caudal-web --source frontend-demo --region us-central1 --allow-unauthenticated
 ```
 
 Para el despliegue automático desde el repo espejo, el disparador debe usar `frontend-demo/Dockerfile`.

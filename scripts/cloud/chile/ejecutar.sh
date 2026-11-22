@@ -4,7 +4,8 @@
 #   base      caudal-chile-datos, 14 tareas (una por región)
 #   plan      caudal-chile-datos, 1 tarea
 #   satelite  caudal-chile-satelite en us-west1, us-west2 y us-west4, 10 tareas por región (PARTE_BASE ya
-#             viene en la definición de cada job: 0, 10, 20 y 30); TAREAS es por región
+#             viene en la definición de cada job: 0, 10 y 20; las partes 30 a 39 se lanzan aparte con
+#             PARTE_BASE=30, ver docs/spec-chile.md); TAREAS es por región
 #   region    caudal-chile-prediccion, 14 tareas
 #   nacional  caudal-chile-prediccion, 1 tarea
 # Variables opcionales (se pasan al job con --update-env-vars): CORRIDA (por defecto la fecha), REGIONES, PARTES, HILOS,

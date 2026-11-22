@@ -9,7 +9,7 @@ Datos fijos:
 | | |
 |---|---|
 | Proyecto | `ph-26-caudal` |
-| Región | `southamerica-west1` (Santiago) |
+| Región | `us-central1` para `caudal-web`: ahí está el domain mapping de `caudales.dev` (Cloud Run no admite domain mappings en Santiago). `caudal-api` sigue en `southamerica-west1` (Santiago) |
 | Servicio | `caudal-web` |
 | Carpeta del frontend | `frontend/` (cámbiala si el frontend está en otra parte) |
 
@@ -29,7 +29,7 @@ No actives la prueba gratuita ni crees una cuenta de facturación.
    ```bash
    gcloud auth login
    gcloud config set project ph-26-caudal
-   gcloud config set run/region southamerica-west1
+   gcloud config set run/region us-central1
    ```
 
 ## 3. Qué necesita el frontend
@@ -72,7 +72,7 @@ gcloud run revisions list --service caudal-web                          # revisi
 gcloud run services update-traffic caudal-web --to-revisions=REVISION=100  # volver a una revisión anterior
 ```
 
-En la consola: <https://console.cloud.google.com/run/detail/southamerica-west1/caudal-web?project=ph-26-caudal>
+En la consola: <https://console.cloud.google.com/run/detail/us-central1/caudal-web?project=ph-26-caudal>
 
 ## La API (`caudal-api`)
 

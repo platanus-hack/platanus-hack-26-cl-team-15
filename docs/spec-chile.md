@@ -55,10 +55,10 @@ Valparaíso fuera de Z1 y Z2 ya se midió con las fiscalizaciones históricas: l
 
 ## Objetivo
 
-Correr el ranking de la temporada seca 2025-26 (M1 a M5) sobre todos los predios elegibles de Chile, no solo los de Z1 y Z2. Lo hacen tres Cloud Run Jobs (el segundo es el mismo job repetido en cuatro regiones) que dejan todo en un bucket de GCS. Ese bucket se monta como volumen en los jobs y en `caudal-web`.
+Correr el ranking de la temporada seca 2025-26 (M1 a M5) sobre todos los predios elegibles de Chile, no solo los de Z1 y Z2. Lo hacen tres Cloud Run Jobs (el segundo es el mismo job repetido en tres regiones) que dejan todo en un bucket de GCS. Ese bucket se monta como volumen en los jobs y en `caudal-web`.
 
 - **Job 1, `caudal-chile-datos`:** baja las fuentes (`base`) y arma el plan Sentinel-2 (`plan`).
-- **Job 1b, `caudal-chile-satelite`:** lee la serie Sentinel-2 de cada predio. Es un job aparte para poder crearlo en cuatro regiones y sumar su cuota.
+- **Job 1b, `caudal-chile-satelite`:** lee la serie Sentinel-2 de cada predio. Es un job aparte para poder crearlo en tres regiones y sumar su cuota.
 - **Job 2, `caudal-chile-prediccion`:** corre M1 a M5 por región y exporta los archivos del frontend.
 
 El gasto no es una restricción; el tiempo sí. Cada decisión de abajo prioriza la duración total y el riesgo de no llegar.
@@ -76,7 +76,7 @@ Fuera de alcance: la calibración (M7) y la validación (M6) siguen siendo las d
 | Fiscalizaciones | La planilla ya es nacional; el script filtra Valparaíso. | Se quita el filtro y la zona se asigna por región. |
 | Sentinel-2 | Earth Search, temporada 2025-26 (diciembre a marzo), nubes < 40 %: 3.773 escenas entre las latitudes −27 y −44 y 2.380 al norte de −27. El bbox incluye Argentina; dentro de Chile quedan unas **3.000 a 4.000**. | `serie_sentinel2.py` recorre zona por zona y lee la ventana de los predios de cada tile. A nivel nacional eso es casi el tile completo. Hay que dividir el trabajo **por tile**, no por zona. |
 | Clima | Open-Meteo en celdas de 0,1°, 5 celdas por llamada. La API gratuita permite 10.000 llamadas al día, y un año de datos cuenta como varias. | Con miles de celdas no alcanza la cuota gratuita. Se cambia a ERA5-Land ARCO geo-chunked de ECMWF, con la misma grilla de 0,1° (ver [Clima](#clima-era5-land-arco-geo-chunked)). |
-| Cuota Cloud Run | 20 vCPU y 40 GiB **por región** ([spec-demo.md](spec-demo.md#despliegue-en-cloud-run)). La de Compute Engine es de 12 vCPU global. | La memoria es el límite. Se pide más cuota al inicio y, mientras tanto, la etapa satelital se reparte en 4 regiones de EE. UU. |
+| Cuota Cloud Run | 20 vCPU y 40 GiB **por región** ([spec-demo.md](spec-demo.md#despliegue-en-cloud-run)). La de Compute Engine es de 12 vCPU global. | La memoria es el límite. Se pide más cuota al inicio y, mientras tanto, la etapa satelital se reparte en 3 regiones de EE. UU. |
 | Cloud Build | Falló con `PERMISSION_DENIED` en el job de POI, pero ya funciona: el equipo despliega `caudal-web` con él y la cuenta de Compute tiene `run.builder`. | Imagen propia en Artifact Registry (`caudal-jobs/pipeline`), construida con Cloud Build y versionada por commit. Ver [`infra/README.md`](../infra/README.md#imagen-de-los-jobs). |
 | Modelos | M2 a M5 trabajan por predio, por vecindario (referencias a 10 km, derechos a 500 m) o por celda de clima. El percentil del exceso y `rank_zona` son por `zona`. | Escalan bien si se reparten por región, con un buffer en el borde. `zona` pasa a ser el código de región (`R05`). |
 | CRS | Todo usa EPSG:32719 (huso 19S). | Al oeste de 72° O (Los Lagos, Aysén) la distorsión de área es menor al 1 %. Se acepta y se anota. |
@@ -123,7 +123,7 @@ Fuera de alcance: la calibración (M7) y la validación (M6) siguen siendo las d
                      └──────────────┬─────────────────────────────────────────────────────┘
                                     │ web/ (montaje de solo lectura)
                                     ▼
-                     caudal-web (Cloud Run, southamerica-west1, nginx) ──► navegador
+                     caudal-web (Cloud Run, us-central1, nginx) ──► navegador
 ```
 
 Sentinel-2 entra en dos momentos. En `plan` se consulta **solo el catálogo STAC**, una vez y por tile. En `satelite` se leen **solo los COG**, directo desde S3 con los ítems guardados en el plan, sin volver a STAC. Todo lo que sale de ahí pasa por el bucket: `prediccion` nunca lee de AWS.
@@ -205,7 +205,7 @@ Antofagasta (II) y Magallanes (XII) no tienen capa de predios CIREN y quedan fue
 
 ## Job 1: `caudal-chile-datos`
 
-Recursos: 4 vCPU y 8 GiB en `base` y `plan`. La etapa `satelite` tiene su propio job, `caudal-chile-satelite` (2 vCPU y 4 GiB), porque `execute` no cambia recursos y porque así se crea en las 4 regiones. `--task-timeout 6h`, `--max-retries 2`, cuenta `caudal-jobs`, volumen `/datos`. Imagen `us-west1-docker.pkg.dev/ph-26-caudal/caudal-jobs/pipeline:<commit>` (`infra/imagen/`), con el código en `/app`, las dependencias fijadas y `ENTRYPOINT` en `scripts/cloud/chile/entrada.py`. El bucket solo lleva datos.
+Recursos: 4 vCPU y 8 GiB en `base` y `plan`. La etapa `satelite` tiene su propio job, `caudal-chile-satelite` (2 vCPU y 4 GiB), porque `execute` no cambia recursos y porque así se crea en las 3 regiones. `--task-timeout 6h`, `--max-retries 2`, cuenta `caudal-jobs`, volumen `/datos`. Imagen `us-west1-docker.pkg.dev/ph-26-caudal/caudal-jobs/pipeline:<commit>` (`infra/imagen/`), con el código en `/app`, las dependencias fijadas y `ENTRYPOINT` en `scripts/cloud/chile/entrada.py`. El bucket solo lleva datos.
 
 ### Etapa `base` (14 tareas, una por región)
 

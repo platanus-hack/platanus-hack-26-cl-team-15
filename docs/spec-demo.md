@@ -293,7 +293,7 @@ Reglas:
 | Parámetro | `caudal-web` | `caudal-api` |
 | --- | --- | --- |
 | Origen | `frontend-demo/` (Dockerfile con nginx, ya existe) | Dockerfile con Python 3.12 y las bibliotecas de WeasyPrint (pango, cairo, gdk-pixbuf) |
-| Región | `southamerica-west1` | `southamerica-west1` |
+| Región | `us-central1` (domain mapping de `caudales.dev`) | `southamerica-west1` |
 | CPU y memoria | 1 vCPU, 512 MiB | 2 vCPU, 2 GiB |
 | Concurrencia | 80 | 20 (los `GET` tardan milisegundos; el expediente se limita aparte, una generación por predio) |
 | Tiempo máximo | 60 s | 300 s |

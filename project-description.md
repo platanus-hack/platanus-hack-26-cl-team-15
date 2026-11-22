@@ -2,7 +2,7 @@
 
 **Caudal finds, from satellite images, farms that irrigate without water rights, and tells Chile's water authority which ones to inspect first.**
 
-Live: <https://caudal-web-170658673954.southamerica-west1.run.app>
+Live: <https://caudales.dev>
 
 ## The problem
 
