@@ -8,7 +8,7 @@ Live: <https://caudales.dev>
 
 In Petorca, 40,000 people have had to live on 50 liters of water a day, delivered by truck. In 2023 and 2024 the state contracted more than CLP 5,700 million in water trucks for that province alone. In the same valleys, orchards stay green all summer, and some have no water rights.
 
-Today this is found almost only when a neighbor files a complaint. The water authority (Dirección General de Aguas, DGA) has few inspectors for thousands of farms.
+The water authority (Dirección General de Aguas, DGA) inspects about 15 farms a year for water extraction in Petorca province, and half of those inspections start with a neighbor's complaint. Thousands of farms are never looked at.
 
 ## What it does
 

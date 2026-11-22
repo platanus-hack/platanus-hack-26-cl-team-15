@@ -51,7 +51,7 @@ Pasos:
 | Tiempo | Tomás dice | Tú haces | Tiene que verse |
 | --- | --- | --- | --- |
 | 0:00 | "Hola, soy Tomás, y esto es **Caudales**." | → en el deck | Slide 2: "50 litros al día" |
-| 0:05 | "…solo si un vecino **denuncia**." | → | Slide 3: "7.911 predios" |
+| 0:05 | "…la mitad por una **denuncia**." | → | Slide 3: "7.911 predios" |
 | 0:31 | "…en el resto de **Chile**." | Ctrl+Tab. Clic en **Aconcagua bajo** en el mapa | El mapa vuela al valle. Panel: "De 3.639 predios, 425 tienen señal alta…" |
 | 0:52 | "Aquí son **425**." | Pestaña **Casos**. Clic en la tercera fila: **FO-95 · Hijuelas · 23-11-2021** | Ficha del caso FO-0504-95: multa de 1.983,9 UTM y "al menos 2,0 años antes" |
 | 1:09 | "…lo mismo que consumen **1.500 personas**." | Pestaña **Predios**. Baja tres filas y clic en **5301984 · 105–280** | Ficha "Predio 5301984", palto, 18,9 ha, Hijuelas |

@@ -11,7 +11,7 @@ Solo la primera frase y la última, textuales, y las dos cifras de la slide 3 (c
 | Tiempo | Pantalla | Palabras clave | Señal para quien maneja |
 | --- | --- | --- | --- |
 | 0:00 | Slide 1 | **"Hola, soy Tomás, y esto es Caudales."** | "Caudales": pasa a la slide 2 |
-| 0:05 | Slide 2 | con la sequía, los pozos de los pueblos se agotaron · la gente depende de camiones aljibe · 5.700 millones en dos años · mientras tanto, ahí al lado, paltos verdes · ¿el problema? sin derechos de agua inscritos · solo si un vecino denuncia | "denuncia": pasa a la slide 3 |
+| 0:05 | Slide 2 | con la sequía, los pozos de los pueblos se agotaron · la gente depende de camiones aljibe · 5.700 millones en dos años · mientras tanto, ahí al lado, paltos verdes · ¿el problema? sin derechos de agua inscritos · al año se fiscalizan unos 15, la mitad por una denuncia | "denuncia": pasa a la slide 3 |
 | 0:31 | Slide 3 | lo ve desde el satélite · casi 8 mil predios, 160 mil mediciones · clima y registro de derechos · le dice al inspector a dónde ir primero · ya tenemos los datos para el resto de Chile | "Chile": cambia al producto, clic en Aconcagua bajo |
 | 0:52 | Zona | valle del Aconcagua, vecino de Petorca · cerro seco: lo verde, alguien lo riega · más agua de la que tiene por derecho: alerta · 425 | "425": pestaña Casos, fila FO-95 |
 | 1:09 | Caso real | Hijuelas · la DGA lo fiscalizó, multa de 140 millones · pero Caudales ya lo tenía en alerta **al menos dos años antes** · pausa de 2 segundos · 100 mil m³ de más, lo que consumen 1.500 personas | "1.500 personas": pestaña Predios, fila 5301984 |
