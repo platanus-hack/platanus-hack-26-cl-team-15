@@ -82,7 +82,7 @@ El tono es hablado. No se nombran satélites, índices ni métodos (Sentinel-2, 
 "Hola, soy Tomás, y esto es Caudales."
 
 **0:05 El problema.**
-"Con la sequía, en Petorca los pozos de los pueblos se agotaron. Hay gente que ha vivido con 50 litros de agua al día, traída en camión. En dos años, el Estado gastó 5.700 millones en llevarla. Y ahí mismo hay paltos verdes en pleno verano, con más agua de la que les toca. Hoy eso se pilla solo si un vecino denuncia."
+"Con la sequía, en Petorca los pozos de los pueblos se agotaron. Hay gente que vive con agua de camión: llegaron a ser 50 litros al día. En dos años, el Estado gastó 5.700 millones en llevarla. Y ahí mismo hay paltos verdes en pleno verano, con más agua de la que les toca. Hoy eso se pilla solo si un vecino denuncia."
 
 **0:29 La solución.**
 "Caudales lo ve desde el satélite. Revisa casi 8 mil predios, con más de 160 mil mediciones. Las cruza con el clima y con el registro público de derechos de agua. Y le dice al inspector a dónde ir primero. Ya tenemos los datos para probarlo en el resto de Chile."
@@ -124,7 +124,7 @@ Cuidados al decirlo:
 
 | Frase | Valor y cálculo | Fuente | Advertencia |
 | --- | --- | --- | --- |
-| 40 mil personas con 50 litros al día | 40.000 personas en la provincia de Petorca | [Radio JGM, U. de Chile, 04-05-2020](https://radiojgm.uchile.cl/de-50-a-100-litros-de-agua-el-suministro-que-el-minsal-no-pudo-cumplir/) | Es un dato de 2020: decir "han tenido que vivir". En 2021 la Corte Suprema subió la dotación a 100 litros |
+| 40 mil personas con 50 litros al día | 40.000 personas en la provincia de Petorca | [Radio JGM, U. de Chile, 04-05-2020](https://radiojgm.uchile.cl/de-50-a-100-litros-de-agua-el-suministro-que-el-minsal-no-pudo-cumplir/) | Los 50 litros son de 2020 y en 2021 la Corte Suprema subió la dotación a 100: por eso va en pasado ("llegaron a ser"). Lo que va en presente es el camión, que sigue: 41.201 m³ contratados entre enero y marzo de 2026 (Mercado Público) |
 | Con la sequía, los pozos de los pueblos se agotaron | Megasequía de Chile central desde 2010 (Garreaud et al., 2020, *Int. J. Climatol.*). La baja de las napas cortó el agua para necesidades básicas en las cuencas de Petorca y La Ligua; el agotamiento se debe sobre todo a causas humanas | [Alvarez-Garreton et al. (2024), HESS 28, 1605](https://hess.copernicus.org/articles/28/1605/2024/); [Duran-Llacer et al. (2020), Water 12(9), 2446](https://doi.org/10.3390/w12092446) (tabla de [spec-agua-potable.md](spec-agua-potable.md)) | No se agotaron todos: es un hecho general de la provincia, sin cifra. No atribuirlo a un predio |
 | 5.700 millones en camiones aljibe | $5.710 millones en contratos de la Delegación Presidencial Provincial de Petorca, 2023 y 2024 sumados | [Consejo para la Transparencia, 05-10-2026](https://www.consejotransparencia.cl/fiscalizacion-cplt-municipios-y-delegaciones-contrataron-mas-de-30-mil-millones-en-camiones-aljibe-en-2023-y-2024-pero-a-cuantas-familias-llego-el-agua-potable/) | El guion dice "gastó" porque es lo natural al hablar (decisión del 22-11). El dato exacto son montos contratados e informados por la delegación, no pagos: si preguntan, decirlo así. Leímos el comunicado; el informe completo no abrió |
 | Multa de más de 140 millones | 1.983,9 UTM × $72.450 = $143,7 millones | Planilla de la DGA; UTM de `impacto.json` (`supuestos.utm_clp`) | Es lo que muestra la ficha del caso. La nota de prensa de la DGA dijo "más de 127 millones", con la UTM de entonces |
