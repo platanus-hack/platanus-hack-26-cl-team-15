@@ -96,7 +96,7 @@ RES = 20  # metros; B11 y SCL son nativas de 20 m
 SCL_VALIDO = [4, 5, 6, 7]
 BANDAS = ["green", "red", "nir", "nir08", "swir16", "scl"]
 AREA_MIN_HA = 0.5
-HILOS = 6
+HILOS = int(os.environ.get("HILOS_ESCENAS", 6))  # escenas en paralelo fuera de --parte (~4 GB cada una con --elegibles)
 ESPERA_BASE = 15  # s; reintento k espera ESPERA_BASE * 2**k
 PAUSA_FINAL = 120  # s antes de la pasada final de escenas fallidas
 
