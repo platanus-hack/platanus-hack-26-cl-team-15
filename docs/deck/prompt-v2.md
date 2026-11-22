@@ -110,7 +110,7 @@ Lenguaje gráfico:
 ## Slides de reserva para las preguntas (después del cierre, mismo sistema)
 Cada una es una cifra con su base en el tercio superior, una frase de contexto abajo y la
 fuente en mono chica. No son afirmaciones: muestran un dato.
-   R1 Grande: "6 de 19" · secundario: "infractores ya multados estaban en alerta alta. Sin la lista serían 2."
+   R1 Grande: "6 de 19" · secundario: "infractores ya multados estaban en alerta alta. Eligiendo predios al azar habrían sido 2."
       Abajo: "Prioriza, no acusa: la infracción la constata un inspector."
       Mono: "2,6 VECES LO ESPERADO · INTERVALO DE 1,3 A 4,4 · CASOS RESUELTOS POR LA DGA"
    R2 Grande: "8 casos" · secundario: "estaban en alerta antes de que llegara el inspector."
