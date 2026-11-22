@@ -11,7 +11,7 @@ Solo la primera frase y la última, textuales, y las dos cifras de la slide 3 (c
 | Tiempo | Pantalla | Palabras clave | Señal para quien maneja |
 | --- | --- | --- | --- |
 | 0:00 | Slide 1 | **"Hola, soy Tomás, y esto es Caudales."** | "Caudales": pasa a la slide 2 |
-| 0:05 | Slide 2 | los pozos de los pueblos se secaron · 50 litros, en camión · 5.700 millones en llevarla · paltos verdes, más agua de la que les toca · solo si un vecino denuncia | "denuncia": pasa a la slide 3 |
+| 0:05 | Slide 2 | con la sequía, los pozos de los pueblos se agotaron · 50 litros, en camión · 5.700 millones en llevarla · paltos verdes, más agua de la que les toca · solo si un vecino denuncia | "denuncia": pasa a la slide 3 |
 | 0:29 | Slide 3 | lo ve desde el satélite · casi 8 mil predios, 160 mil mediciones · clima y registro de derechos · le dice al inspector a dónde ir primero · ya tenemos los datos para el resto de Chile | "Chile": cambia al producto, tecla 2 |
 | 0:50 | Zona | valle del Aconcagua, vecino de Petorca · cerro seco: lo verde, alguien lo riega · más agua de la que tiene por derecho: alerta · 425 | "425": tecla 3 |
 | 1:05 | Caso real | Hijuelas · la DGA lo fiscalizó, multa de 140 millones · en alerta **al menos dos años antes** · pausa de 2 segundos · 100 mil m³ de más, lo que consumen 1.500 personas | "1.500 personas": tecla 4 |

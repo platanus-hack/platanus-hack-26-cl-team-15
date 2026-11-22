@@ -82,7 +82,7 @@ El tono es hablado. No se nombran satélites, índices ni métodos (Sentinel-2, 
 "Hola, soy Tomás, y esto es Caudales."
 
 **0:05 El problema.**
-"En Petorca, los pozos de los pueblos se secaron. Hay gente que ha vivido con 50 litros de agua al día, traída en camión. En dos años, el Estado gastó 5.700 millones en llevarla. Y ahí mismo hay paltos verdes en pleno verano, con más agua de la que les toca. Hoy eso se pilla solo si un vecino denuncia."
+"Con la sequía, en Petorca los pozos de los pueblos se agotaron. Hay gente que ha vivido con 50 litros de agua al día, traída en camión. En dos años, el Estado gastó 5.700 millones en llevarla. Y ahí mismo hay paltos verdes en pleno verano, con más agua de la que les toca. Hoy eso se pilla solo si un vecino denuncia."
 
 **0:29 La solución.**
 "Caudales lo ve desde el satélite. Revisa casi 8 mil predios, con más de 160 mil mediciones. Las cruza con el clima y con el registro público de derechos de agua. Y le dice al inspector a dónde ir primero. Ya tenemos los datos para probarlo en el resto de Chile."
@@ -105,7 +105,7 @@ El tono es hablado. No se nombran satélites, índices ni métodos (Sentinel-2, 
 **2:34 Cierre.**
 "El agua que falta no se ve. El verde en pleno verano, sí. Todo esto con datos públicos, que estaban ahí, dispersos: faltaba cruzarlos. Somos Nicolás, Felipe, Gabriela y Tomás. Gracias."
 
-El texto tiene 379 palabras (Intro: 7 · El problema: 60 · La solución: 51 · la zona: 38 · el caso real: 65 · un candidato de hoy: 66 · la ruta de mañana: 22 · Qué tan bien funciona: 39 · Cierre: 31). A 150 palabras por minuto son 2:32 hablando; el resto son los clics, los vuelos y las pausas.
+El texto tiene 382 palabras (Intro: 7 · El problema: 63 · La solución: 51 · la zona: 38 · el caso real: 65 · un candidato de hoy: 66 · la ruta de mañana: 22 · Qué tan bien funciona: 39 · Cierre: 31). A 150 palabras por minuto son 2:33 hablando; el resto son los clics, los vuelos y las pausas.
 
 Cuidados al decirlo:
 
@@ -114,7 +114,7 @@ Cuidados al decirlo:
 - **Las cifras cambian de escala y hay que decirlo.** La pantalla de la zona dice 3.639 predios y 425 en alerta; el 501 es de las dos zonas juntas y sin fiscalizar. Por eso el guion dice "en esta zona" y "entre las dos zonas".
 - **El expediente del candidato ya está generado.** La pantalla dice "Generado el…, el servidor lo reutiliza". Por eso el guion no dice "se está generando ahora". Si el jurado pide verlo generarse, se pide el de otro predio: tarda unos 5 segundos y la pantalla muestra los pasos.
 - **La multa en pantalla dice 1.983,9 UTM, unos $144 millones** al valor de la UTM de `impacto.json`. La DGA informó "más de 127 millones" en su momento. El guion dice "más de 140" para calzar con la pantalla.
-- **"Los pozos se secaron" no dice quién los secó.** El guion deja que el público una esa frase con los paltos verdes. Si el jurado pregunta por la causa: la napa de Petorca y La Ligua bajó sobre todo por causas humanas (expansión del palto, riego y derechos otorgados de más), no por el clima, según un estudio revisado por pares. No decir "los paltos secaron los pozos".
+- **"Con la sequía, los pozos se agotaron" no dice quién los agotó.** La sequía se nombra y no se explica: la sala ya la conoce. El guion deja que el público una esa frase con los paltos verdes. Si el jurado pregunta por la causa, son las dos cosas, sequía y extracción: la napa de Petorca y La Ligua bajó sobre todo por causas humanas (expansión del palto, riego y derechos otorgados de más), no por el clima, según un estudio revisado por pares. No decir "los paltos secaron los pozos".
 - **Los 5.700 millones son contratos adjudicados**, según el Consejo para la Transparencia. El guion dice "gastó"; la slide solo dice "en camiones aljibe · 2023 y 2024". Si el jurado pregunta, la respuesta exacta es "contratados".
 - **Desde la quinta fila solo se ve el tercio superior.** Cada cifra se dice en voz alta; ninguna se deja a la pantalla.
 - **Si falta tiempo**, se salta "y en cada uno, dónde mirar" y, si hace falta, la ruta entera.
@@ -125,7 +125,7 @@ Cuidados al decirlo:
 | Frase | Valor y cálculo | Fuente | Advertencia |
 | --- | --- | --- | --- |
 | 40 mil personas con 50 litros al día | 40.000 personas en la provincia de Petorca | [Radio JGM, U. de Chile, 04-05-2020](https://radiojgm.uchile.cl/de-50-a-100-litros-de-agua-el-suministro-que-el-minsal-no-pudo-cumplir/) | Es un dato de 2020: decir "han tenido que vivir". En 2021 la Corte Suprema subió la dotación a 100 litros |
-| Los pozos de los pueblos se secaron | La baja de las napas cortó el agua para necesidades básicas en las cuencas de Petorca y La Ligua; el agotamiento se debe sobre todo a causas humanas | [Alvarez-Garreton et al. (2024), HESS 28, 1605](https://hess.copernicus.org/articles/28/1605/2024/); [Duran-Llacer et al. (2020), Water 12(9), 2446](https://doi.org/10.3390/w12092446) (tabla de [spec-agua-potable.md](spec-agua-potable.md)) | No se secaron todos: es un hecho general de la provincia, sin cifra. No atribuirlo a un predio |
+| Con la sequía, los pozos de los pueblos se agotaron | Megasequía de Chile central desde 2010 (Garreaud et al., 2020, *Int. J. Climatol.*). La baja de las napas cortó el agua para necesidades básicas en las cuencas de Petorca y La Ligua; el agotamiento se debe sobre todo a causas humanas | [Alvarez-Garreton et al. (2024), HESS 28, 1605](https://hess.copernicus.org/articles/28/1605/2024/); [Duran-Llacer et al. (2020), Water 12(9), 2446](https://doi.org/10.3390/w12092446) (tabla de [spec-agua-potable.md](spec-agua-potable.md)) | No se agotaron todos: es un hecho general de la provincia, sin cifra. No atribuirlo a un predio |
 | 5.700 millones en camiones aljibe | $5.710 millones en contratos de la Delegación Presidencial Provincial de Petorca, 2023 y 2024 sumados | [Consejo para la Transparencia, 05-10-2026](https://www.consejotransparencia.cl/fiscalizacion-cplt-municipios-y-delegaciones-contrataron-mas-de-30-mil-millones-en-camiones-aljibe-en-2023-y-2024-pero-a-cuantas-familias-llego-el-agua-potable/) | El guion dice "gastó" porque es lo natural al hablar (decisión del 22-11). El dato exacto son montos contratados e informados por la delegación, no pagos: si preguntan, decirlo así. Leímos el comunicado; el informe completo no abrió |
 | Multa de más de 140 millones | 1.983,9 UTM × $72.450 = $143,7 millones | Planilla de la DGA; UTM de `impacto.json` (`supuestos.utm_clp`) | Es lo que muestra la ficha del caso. La nota de prensa de la DGA dijo "más de 127 millones", con la UTM de entonces |
 | Lo fiscalizó y lo multó; en alerta al menos dos años antes | Temporada 2019-20; inspección el 23-11-2021 (1,98 años); resolución de multa el 29-11-2023 | `impacto.md`, `/api/casos/FO-0504-95` | La serie parte en 2019-20: es una cota inferior. La multa se resolvió en 2023: decir "fiscalizó en 2021 y lo multó", no "multó en 2021" |
