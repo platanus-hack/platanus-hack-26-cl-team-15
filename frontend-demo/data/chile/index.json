@@ -1,0 +1,205 @@
+{
+ "corrida": "chile-2025-26",
+ "temporada": {
+  "inicio": "2025-12-01",
+  "fin": "2026-03-31"
+ },
+ "generado": "2026-11-22",
+ "fuente": "Corrida nacional de Caudal (docs/spec-chile.md). Fuera de Z1 y Z2 es exploratoria: umbrales calibrados en Z1 y Z2, clima ERA5-Land sin corrección con estaciones y riego por acciones de canal fuera del registro de derechos.",
+ "z1_z2": "Los predios de Z1 y Z2 salen de data/zonas/ (exportación validada), no de esta capa.",
+ "regiones": [
+  {
+   "zona": "R15",
+   "nombre": "Arica y Parinacota",
+   "bbox": [
+    -70.3974,
+    -19.2468,
+    -68.8927,
+    -17.4804
+   ],
+   "aplicabilidad": "norte_desertico",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R01",
+   "nombre": "Tarapacá",
+   "bbox": [
+    -70.3053,
+    -21.6466,
+    -68.3849,
+    -18.9185
+   ],
+   "aplicabilidad": "norte_desertico",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R03",
+   "nombre": "Atacama",
+   "bbox": [
+    -71.6112,
+    -29.6403,
+    -68.242,
+    -25.2733
+   ],
+   "aplicabilidad": "norte_desertico",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R04",
+   "nombre": "Coquimbo",
+   "bbox": [
+    -71.7383,
+    -32.5831,
+    -69.7877,
+    -29.0207
+   ],
+   "aplicabilidad": "mediterraneo_seco",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R05",
+   "nombre": "Valparaíso",
+   "bbox": [
+    -71.8623,
+    -33.9742,
+    -69.9686,
+    -32.002
+   ],
+   "aplicabilidad": "calibrado",
+   "exploratorio": true,
+   "estado": "lista",
+   "archivo": "R05.geojson",
+   "predios_region": 28419,
+   "alertas": {
+    "alta": 4804,
+    "media": 1305
+   },
+   "excluidos_z1_z2": 1577
+  },
+  {
+   "zona": "R13",
+   "nombre": "Metropolitana",
+   "bbox": [
+    -71.7442,
+    -34.309,
+    -69.7482,
+    -32.8087
+   ],
+   "aplicabilidad": "mediterraneo_seco",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R06",
+   "nombre": "O'Higgins",
+   "bbox": [
+    -72.079,
+    -35.0201,
+    -69.9874,
+    -33.833
+   ],
+   "aplicabilidad": "mediterraneo_seco",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R07",
+   "nombre": "Maule",
+   "bbox": [
+    -72.8078,
+    -36.8064,
+    -70.2896,
+    -34.6666
+   ],
+   "aplicabilidad": "mediterraneo_seco",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R16",
+   "nombre": "Ñuble",
+   "bbox": [
+    -72.9086,
+    -37.2142,
+    -70.9842,
+    -35.9873
+   ],
+   "aplicabilidad": "sur_humedo",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R08",
+   "nombre": "Biobío",
+   "bbox": [
+    -73.9841,
+    -38.5104,
+    -70.9602,
+    -36.3715
+   ],
+   "aplicabilidad": "sur_humedo",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R09",
+   "nombre": "Araucanía",
+   "bbox": [
+    -73.5421,
+    -39.655,
+    -70.8036,
+    -37.5213
+   ],
+   "aplicabilidad": "sur_humedo",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R14",
+   "nombre": "Los Ríos",
+   "bbox": [
+    -73.7488,
+    -40.6989,
+    -71.5696,
+    -39.2573
+   ],
+   "aplicabilidad": "sur_humedo",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R10",
+   "nombre": "Los Lagos",
+   "bbox": [
+    -74.861,
+    -44.0851,
+    -71.5566,
+    -40.2181
+   ],
+   "aplicabilidad": "sur_humedo",
+   "exploratorio": true,
+   "estado": "pendiente"
+  },
+  {
+   "zona": "R11",
+   "nombre": "Aysén",
+   "bbox": [
+    -72.9642,
+    -47.3934,
+    -71.2251,
+    -44.2324
+   ],
+   "aplicabilidad": "sur_humedo",
+   "exploratorio": true,
+   "estado": "pendiente"
+  }
+ ],
+ "totales": {
+  "alta": 4804,
+  "media": 1305
+ }
+}
