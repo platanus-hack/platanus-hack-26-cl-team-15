@@ -19,7 +19,14 @@
    ],
    "aplicabilidad": "norte_desertico",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R15.geojson",
+   "predios_region": 3520,
+   "alertas": {
+    "alta": 70,
+    "media": 50
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R01",
@@ -32,7 +39,14 @@
    ],
    "aplicabilidad": "norte_desertico",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R01.geojson",
+   "predios_region": 628,
+   "alertas": {
+    "alta": 4,
+    "media": 2
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R03",
@@ -45,7 +59,14 @@
    ],
    "aplicabilidad": "norte_desertico",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R03.geojson",
+   "predios_region": 4244,
+   "alertas": {
+    "alta": 602,
+    "media": 244
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R04",
@@ -58,7 +79,14 @@
    ],
    "aplicabilidad": "mediterraneo_seco",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R04.geojson",
+   "predios_region": 14426,
+   "alertas": {
+    "alta": 2611,
+    "media": 689
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R05",
@@ -91,7 +119,14 @@
    ],
    "aplicabilidad": "mediterraneo_seco",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R13.geojson",
+   "predios_region": 13442,
+   "alertas": {
+    "alta": 3670,
+    "media": 1187
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R06",
@@ -104,7 +139,14 @@
    ],
    "aplicabilidad": "mediterraneo_seco",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R06.geojson",
+   "predios_region": 29765,
+   "alertas": {
+    "alta": 7688,
+    "media": 2511
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R07",
@@ -117,7 +159,14 @@
    ],
    "aplicabilidad": "mediterraneo_seco",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R07.geojson",
+   "predios_region": 72938,
+   "alertas": {
+    "alta": 3923,
+    "media": 685
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R16",
@@ -130,7 +179,14 @@
    ],
    "aplicabilidad": "sur_humedo",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R16.geojson",
+   "predios_region": 46247,
+   "alertas": {
+    "alta": 0,
+    "media": 757
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R08",
@@ -143,7 +199,14 @@
    ],
    "aplicabilidad": "sur_humedo",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R08.geojson",
+   "predios_region": 55194,
+   "alertas": {
+    "alta": 0,
+    "media": 266
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R09",
@@ -156,7 +219,14 @@
    ],
    "aplicabilidad": "sur_humedo",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R09.geojson",
+   "predios_region": 135162,
+   "alertas": {
+    "alta": 0,
+    "media": 11
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R14",
@@ -169,7 +239,14 @@
    ],
    "aplicabilidad": "sur_humedo",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R14.geojson",
+   "predios_region": 31633,
+   "alertas": {
+    "alta": 0,
+    "media": 0
+   },
+   "excluidos_z1_z2": 0
   },
   {
    "zona": "R10",
@@ -195,11 +272,18 @@
    ],
    "aplicabilidad": "sur_humedo",
    "exploratorio": true,
-   "estado": "pendiente"
+   "estado": "lista",
+   "archivo": "R11.geojson",
+   "predios_region": 3827,
+   "alertas": {
+    "alta": 0,
+    "media": 0
+   },
+   "excluidos_z1_z2": 0
   }
  ],
  "totales": {
-  "alta": 4804,
-  "media": 1305
+  "alta": 23372,
+  "media": 7707
  }
 }
