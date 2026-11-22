@@ -37,3 +37,9 @@ variable "secreto_cds" {
   description = "Secreto de Secret Manager con la clave de CDS (variable CDS_API_KEY)."
   type        = string
 }
+
+variable "regiones_prediccion_extra" {
+  description = "Regiones adicionales para caudal-chile-prediccion (además de la principal), para correr varias regiones de Chile en paralelo."
+  type        = list(string)
+  default     = []
+}

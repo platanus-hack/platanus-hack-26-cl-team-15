@@ -38,9 +38,9 @@ variable "regiones_satelite" {
   description = "Regiones donde corre caudal-chile-satelite, con el índice de la primera parte (PARTE_BASE). Cada región maneja 10 partes."
   type        = map(number)
   default = {
-    "us-west1"    = 0
-    "us-west2"    = 10
-    "us-west4"    = 20
+    "us-west1" = 0
+    "us-west2" = 10
+    "us-west4" = 20
   }
 }
 
@@ -72,4 +72,10 @@ variable "cuenta_servicio_build" {
   description = "Cuenta de servicio con la que corre Cloud Build (en proyectos nuevos, la de Compute por defecto). Recibe escritura en el repositorio de imágenes."
   type        = string
   default     = "170658673954-compute@developer.gserviceaccount.com"
+}
+
+variable "regiones_prediccion_extra" {
+  description = "Regiones donde se repite caudal-chile-prediccion para correr la etapa region en paralelo (la principal es var.region)."
+  type        = list(string)
+  default     = ["us-west2", "us-west4"]
 }

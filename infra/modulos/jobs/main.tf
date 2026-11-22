@@ -26,6 +26,19 @@ locals {
         entorno     = { ETAPA = "region" }
       }
     },
+    # La etapa region pide 32 GiB por tarea: con 40 GiB de cuota por región corre una sola a la vez. Se repite el
+    # job en otras regiones para correr varias regiones de Chile en paralelo (cada ejecución con su lista REGIONES).
+    {
+      for region in var.regiones_prediccion_extra : "prediccion-${region}" => {
+        nombre      = "caudal-chile-prediccion"
+        region      = region
+        cpu         = 8
+        memoria     = "32Gi"
+        timeout     = "10800s" # 3 h
+        max_retries = 1
+        entorno     = { ETAPA = "region" }
+      }
+    },
     # La etapa satelital es el mismo job repetido en varias regiones para sumar
     # la cuota de cada una; PARTE_BASE desplaza el índice de las tareas.
     {

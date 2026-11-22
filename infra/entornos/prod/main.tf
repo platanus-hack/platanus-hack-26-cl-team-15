@@ -56,15 +56,16 @@ module "artefactos" {
 }
 
 module "jobs" {
-  source            = "../../modulos/jobs"
-  region_principal  = var.region
-  regiones_satelite = var.regiones_satelite
-  hilos_satelite    = var.hilos_satelite
-  imagen            = "${module.artefactos.url}/pipeline:${var.version_imagen}"
-  corrida           = var.corrida
-  cuenta_servicio   = module.identidad.email
-  bucket            = module.almacenamiento.nombre
-  secreto_cds       = module.secretos.id_secreto
+  source                    = "../../modulos/jobs"
+  region_principal          = var.region
+  regiones_satelite         = var.regiones_satelite
+  regiones_prediccion_extra = var.regiones_prediccion_extra
+  hilos_satelite            = var.hilos_satelite
+  imagen                    = "${module.artefactos.url}/pipeline:${var.version_imagen}"
+  corrida                   = var.corrida
+  cuenta_servicio           = module.identidad.email
+  bucket                    = module.almacenamiento.nombre
+  secreto_cds               = module.secretos.id_secreto
 
   # Los jobs necesitan los permisos antes de existir: si no, la primera ejecución falla.
   depends_on = [module.almacenamiento, module.secretos, module.artefactos]
